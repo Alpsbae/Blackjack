@@ -1,0 +1,63 @@
+Body {
+  background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3647f09a-5a82-4617-9b2e-c996e8c1b7ce/d7intx0-70f5b93f-487e-4712-a8ce-925bee9b2d35.jpg/v1/fill/w_1192,h_670,q_70,strp/casino_card_background_wallpaper_hd_1920x1080_by_giozaga_d7intx0-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcLzM2NDdmMDlhLTVhODItNDYxNy05YjJlLWM5OTZlOGMxYjdjZVwvZDdpbnR4MC03MGY1YjkzZi00ODdlLTQ3MTItYThjZS05MjViZWU5YjJkMzUuanBnIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.UcvVXI40qqwuqr2CBI-UKV56tuQXnnnpkqHu6i4Le84");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+.flex-blackjack-row-1,
+.flex-blackjack-row-2,
+.flex-blackjack-row-3 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.flex-blackjack-row-2 div {
+  padding: 10px;
+  flex: 1;
+  height: 350px;
+  text-align: center;
+}
+
+.flex-blackjack-row-2 div img {
+  padding: 10px;
+  object-fit: contain;
+}
+
+.flex-blackjack-row-3 div {
+  padding: 10px;
+}
+.flex-blackjack-row-3 div button {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+table,
+th,
+td {
+  padding: 5px;
+  border: 1px solid whitesmoke;
+  color: whitesmoke;
+  align-items: center;
+  text-align: center;
+}
+
+#win-header {
+  color: lightgreen;
+}
+
+#loss-header {
+  color: bisque;
+}
+
+#draw-header {
+  color: orange;
+}
